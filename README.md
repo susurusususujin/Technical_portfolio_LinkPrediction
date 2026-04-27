@@ -42,7 +42,7 @@ Stage0: PairClassifier 사전학습
 
 
 
-### 설치
+### 라이브러리 설치 및 환경
 
 ```bash
 python >= 3.12
