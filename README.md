@@ -4,7 +4,7 @@
 
 Knowledge Graph 기반 도메인 간 링크 예측(Link Prediction) 파이프라인으로 CompRGCN 인코더 + Gradient Reversal Layer(GRL)를 활용한 도메인 적응(Domain Adaptation) 방법론을 구현
 
----
+
 
 ### Overview
 
@@ -23,7 +23,7 @@ Stage0: PairClassifier 사전학습
   → 최종 평가 & 예측 CSV 출력
 ```
 
----
+
 
 ### Project Structure
 
@@ -40,7 +40,7 @@ Stage0: PairClassifier 사전학습
 └── 01.12_total.json         # 입력 지식 그래프 데이터
 ```
 
----
+
 
 ### Requirements
 
@@ -62,7 +62,7 @@ pip install torch torch-geometric
 pip install torch-scatter --no-build-isolation
 ```
 
----
+
 
 ### Run
 
@@ -73,7 +73,7 @@ python main.py
 
 실행 완료 후 `scopus_pred_edges_AE_Threshold.csv`와 `01.20_pred_edges_named.csv` 파일이 생성됨
 
----
+
 
 ### Evaluation Metrics
 
@@ -86,7 +86,7 @@ python main.py
 | Hits@10 | Top-10 내 정답 비율 |
 | Macro / Weighted F1 | 관계 타입 분류 |
 
----
+
 
 ### 📝 Notes
 
