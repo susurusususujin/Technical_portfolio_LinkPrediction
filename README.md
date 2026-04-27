@@ -53,15 +53,9 @@ scikit-learn
 numpy
 ```
 
-### Run
+### 결과
 
-```bash
-source .lpvenv/bin/activate
-python main.py
-```
-
-실행 완료 후 `scopus_pred_edges_AE_Threshold.csv`와 `01.20_pred_edges_named.csv` 파일이 생성됨
-
+main.py 파일 실행 후 `scopus_pred_edges_AE_Threshold.csv`와 `01.20_pred_edges_named.csv` 파일이 생성됨
 
 
 ### Evaluation Metrics
