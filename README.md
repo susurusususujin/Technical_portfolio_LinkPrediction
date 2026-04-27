@@ -71,7 +71,7 @@ main.py 파일 실행 후 `scopus_pred_edges_AE_Threshold.csv`와 `01.20_pred_ed
 
 
 
-### Notes
+### Note
 
 - GPU가 없는 경우 CPU에서도 실행 가능하긴 하지만, 속도가 매우 느림
 - 그리드 서치는 125개 조합을 탐색하며 시간이 많이 소요될 수 있음
