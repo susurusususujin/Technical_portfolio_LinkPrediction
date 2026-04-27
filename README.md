@@ -25,7 +25,7 @@ Stage0: PairClassifier 사전학습
 
 
 
-### Project Structure
+### 폴더 구조
 
 ```
 ├── main.py                  # 파이프라인 진입점
@@ -42,7 +42,7 @@ Stage0: PairClassifier 사전학습
 
 
 
-### Requirements
+### 설치
 
 ```bash
 python >= 3.12
@@ -52,17 +52,6 @@ torch-scatter
 scikit-learn
 numpy
 ```
-
-가상환경 생성 및 실행:
-
-```bash
-python -m venv .lpvenv
-source .lpvenv/bin/activate
-pip install torch torch-geometric
-pip install torch-scatter --no-build-isolation
-```
-
-
 
 ### Run
 
@@ -88,7 +77,7 @@ python main.py
 
 
 
-### 📝 Notes
+### Notes
 
 - GPU가 없는 경우 CPU에서도 실행 가능하긴 하지만, 속도가 매우 느림
 - 그리드 서치는 125개 조합을 탐색하며 시간이 많이 소요될 수 있음
